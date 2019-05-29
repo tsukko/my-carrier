@@ -1,5 +1,6 @@
 # 残しておきたい情報リスト
 - Android webviewのライフサイクル周り（shouldOverrideUrlLoadingなど）
+- CircleCI、Selenium関連
 - 形態素解析関連
 - chromium-crosswalk関連
 - cordova関連
