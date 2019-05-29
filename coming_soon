@@ -1,0 +1,8 @@
+# 残しておきたい情報リスト
+- chromium-crosswalk関連
+- cordova関連
+- NFC読み取り、APDUコマンド関連
+- Mockito、PowerMock、Robolectric、Jacoco関連
+- Android webviewのライフサイクル周り（shouldOverrideUrlLoadingなど）
+- Androidアプリ難読化
+- Kotlin、AndroidX、DataBinding関連
