@@ -1,8 +1,9 @@
 # 残しておきたい情報リスト
+- Android webviewのライフサイクル周り（shouldOverrideUrlLoadingなど）
+- 形態素解析関連
 - chromium-crosswalk関連
 - cordova関連
 - NFC読み取り、APDUコマンド関連
 - Mockito、PowerMock、Robolectric、Jacoco関連
-- Android webviewのライフサイクル周り（shouldOverrideUrlLoadingなど）
-- Androidアプリ難読化
+- Androidアプリ難読化関連
 - Kotlin、AndroidX、DataBinding関連
