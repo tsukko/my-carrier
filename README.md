@@ -11,9 +11,10 @@ Email:  contact@integrityworks.co.jp
 
 ## 技能（QUALIFICATIONS / ADDITIONAL SKILLS）
 保有するスキルや技術
-- Embedded development（c、c++、linux kernel、shell）
-- Android(1.6 - latest、Java/Kotlin)
-- iOS(4 - latest、Objective-C/Swift)
+- Embedded development(Linux Kernel, C, C++, Shell）
+- Android (1.6 - latest, Java / Kotlin)
+- iOS (4 - latest, Objective-C / Swift)
+- Flutter (1.12 - latest, Dart)
 - その他、Python、PHP、MySql、Git/GitHub、AWS、CircleCI、Seleniumなど
 
 ## 職歴（EXPERIENCE / WORK HISTORY）
