@@ -11,11 +11,12 @@ Email:  contact@integrityworks.co.jp
 
 ## 技能（QUALIFICATIONS / ADDITIONAL SKILLS）
 保有するスキルや技術
+- Application development
+  - Android (1.6 - latest, Java / Kotlin)
+  - iOS (4 - latest, Objective-C / Swift)
+- Flutter (Dart)
 - Embedded development(Linux Kernel, C, C++, Shell）
-- Android (1.6 - latest, Java / Kotlin)
-- iOS (4 - latest, Objective-C / Swift)
-- Flutter (1.12 - latest, Dart)
-- その他、Python、PHP、MySql、Git/GitHub、AWS、CircleCI、Seleniumなど
+- その他、Firebase、Python、PHP、AWS、MySql、Git/GitHub、CircleCI、Seleniumなど
 
 ## 職歴（EXPERIENCE / WORK HISTORY）
 これまでの職歴を新しい順で記載
@@ -25,13 +26,13 @@ Email:  contact@integrityworks.co.jp
 | 開始年月 | プロジェクト概要 | 期間 |
 | ------------ | ------------ | ------------ |
 | 2019/04 | AWSクラウドネイティブ開発支援 <br> (Python) | 継続中 |
-| 2017/05 | 大企業内のスマートフォンアプリ開発における技術支援 <br> Android端末のNFCによるカード情報読み取りとwebサービスとの連携アプリの開発 <br> (Android、iOS) | 1年11ヶ月 |
-| 2017/03 | 自然言語処理により、自動車オーナーズデスクや教育システム内の会話データなど大量データを解析・分析するPoC <br> (Python) | 0年2ヶ月 |
-| 2016/09 | 家政婦マッチングサイトなどのWebサイト開発、アプリ開発の上流工程の請負い <br> (PHP、iOS、Android) | 0年7ヶ月 |
+| 2017/05 | 企業内におけるスマートフォンアプリ開発案件の技術支援 <br> Android端末のNFCによるカード情報読み取りとWebサービスとの連携アプリの開発 <br> (Android、iOS) | 1年11ヶ月 |
+| 2017/03 | 自然言語処理による、自動車オーナーズデスクや教育システム内の会話データなど大量データの解析・分析PoC <br> (Python) | 0年2ヶ月 |
+| 2016/09 | 家政婦マッチングサイトなどのWebサイト開発や就活支援アプリ開発の上流工程の請負い <br> (PHP、iOS、Android) | 0年7ヶ月 |
 | 2015/09 | スマートフォン動画視聴アプリケーション開発 <br> (Android、iOS) | 1年0ヶ月 |
 | 2015/09 | スマートフォン占いアプリケーション開発 <br> (Android、iOS) | 0年6ヶ月 |
 | 2015/07 | スマートフォンアプリケーションを用いた施錠開錠システムの開発 <br> (Android、iOS) | 0年2ヶ月 |
-| 2014/11 | アフィリエイト管理サイトの新規開発 <br> (Java) | 0年7ヶ月 |
+| 2014/11 | 大手流通会社のショッピングサイトが運営するアフィリエイトサービスの新規開発 <br> (Java) | 0年7ヶ月 |
 | 2013/04 | 生体認証技術を使用したセキュリティソフトの開発、および販促用のデモアプリ開発 <br> (C++、iOS、Android) | 1年7ヶ月 |
 | 2012/11 | コンビニエンスストア発注用EOS端末システム開発 <br>  (Android) | 0年5ヶ月 |
 | 2011/10 | 被災地等で捜索を行うロボット端末とリモコンの開発、およびロボットを制御するAndroidアプリの開発 <br> (Android、Linuxデバイスドライバ) | 1年1ヶ月 |
