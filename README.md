@@ -11,12 +11,29 @@ Email:  contact@integrityworks.co.jp
 
 ## 技能（QUALIFICATIONS / ADDITIONAL SKILLS）
 保有するスキルや技術
+### Programming Language
 - Application development
-  - Android (1.6 - latest, Java / Kotlin)
-  - iOS (4 - latest, Objective-C / Swift)
-- Flutter (Dart)
-- Embedded development(Linux Kernel, C, C++, Shell）
-- その他、Firebase、Python、PHP、AWS、MySql、Git/GitHub、CircleCI、Seleniumなど
+  - Dart (Flutter)
+  - Kotlin / Java (Android OS 1.6 - latest)
+  - Swint / Objective-C (iOS 4 - latest)
+  - TypeScript (Cordova)
+- Embedded development
+  - C, C++ (Linux Kernel)
+  - assembler (ARM), Bash
+- Desktop Application, Tool, Web, etc.
+  - Python
+  - BASIC, Java (Spring Boot), C#, PHP, JavaScript, Perl, etc.
+### Tools, Services
+- IDE
+  - JetBrains (Android Studio, IntelliJ IDEA, PyCharm), Xcode, VS code, Eclipse, Jupyter Notebook
+- Source Code Management, CI/CD
+  - GitHub, GitLab, Bitbucket, AWS (CodeCommit, CodePipeline, CodeDeploy), CircleCI
+- Database
+  - Realm, PostgreSQL, Amazon DynamoDB, SQLite
+- OS
+  - Windows, macOS, Linux OS (Ubuntu, Amazon Linux, CentOS, Red Hat, Fedora, openSuse, etc.)
+- Others
+  - Figma, Firebase, Selenium, BrowserStack, Monaca, Morphological Analysis (MeCab, JUMAN)
 
 ## 職歴（EXPERIENCE / WORK HISTORY）
 これまでの職歴を新しい順で記載
