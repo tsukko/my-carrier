@@ -1,6 +1,7 @@
 自分の経歴をざっくりまとめてみました。  
 他のところでまとめていた内容をそのまま流用した箇所があるため、英語が混ざっています。  
 そのうち、うまい感じに直します。
+※個人メモ：ブログやgdriveにあるのは古い情報、ここを最新とする。
 
 ## 氏名、連絡先（PERSONAL INFORMATION）
 Name: Nori.  
@@ -12,15 +13,15 @@ Email:  contact@integrityworks.co.jp
 ## 技能（QUALIFICATIONS / ADDITIONAL SKILLS）
 保有するスキルや技術
 ### Programming Language
-- Application development
+- Mobile Application Development (8+ years’ experience)
   - Dart (Flutter)
   - Kotlin / Java (Android OS 1.6 - latest)
   - Swint / Objective-C (iOS 4 - latest)
   - TypeScript (Cordova)
-- Embedded development
+- Embedded Development (5+ years’ experience)
   - C, C++ (Linux Kernel)
   - assembler (ARM), Bash
-- Desktop Application, Tool, Web, etc.
+- Desktop Application, Tool, Web, etc. (3+ years’ experience)
   - Python
   - BASIC, Java (Spring Boot), C#, PHP, JavaScript, Perl, etc.
 ### Tools, Services
@@ -43,7 +44,7 @@ Email:  contact@integrityworks.co.jp
 ### 全体版
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 開始年月<br>（期間） &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | プロジェクト概要 |
 | :---: | --- |
-| 2019/04<br>（継続中） | AWSクラウドネイティブ開発支援として以下のプロジェクトに参画<br>・特定のフォーマットのPDFファイルから文書、画像抽出し、抽出データのクラスタリング、ラベル付け、データベース登録を行うサービスを開発 (Python)<br>・国勢調査データのクローラー開発。定期的にe-statのAPIや登録されているExcelファイルからデータを抽出・整形して、データベース登録を行うサービスを開発 (Python)<br>・Webサービスのクラウド環境をAlibaba CloudからAWSへ移行するためのAPIやバッチ開発 (ECS、Lambda、Elasticsearchなど)、サービス連携するCordvaアプリ改修 (Android、iOS)<br>・特殊なバーコード読取りライブラリの選定と組込み、Flutterによるクロスプラットフォーム対応の試作 (Android、iOS)<br>・既存の医薬品情報提供アプリの改修支援 (Android、iOS)<br>・AWSインフラチームとしてAWSサービス利用のための各拠点への技術支援、AWSアカウント移行作業支援、EC2インスタンス内の障害発生原因の調査やADサーバーやSyslogサーバー構築、オペレーションチームへのフォローアップ<br>・社内AWS利用ガイドライン策定 |
+| 2019/04<br>（継続中） | AWSクラウドネイティブ開発支援として以下のプロジェクトに参画<br>・特定のフォーマットのPDFファイルから文書、画像抽出し、抽出データのクラスタリング、ラベル付け、データベース登録を行うサービスを開発 (Python)<br>・国勢調査データのクローラー開発。定期的にe-statのAPIや登録されているExcelファイルからデータを抽出・整形して、データベース登録を行うサービスを開発 (Python)<br>・Webサービスのクラウド環境をAlibaba CloudからAWSへ移行するためのAPIやバッチ開発 (ECS、Lambda、Elasticsearchなど)、サービス連携するCordvaアプリ改修 (Android、iOS)<br>・iOS SDK非対応のバーコードを読み取るためのライブラリの選定と組込み、Flutterによるクロスプラットフォーム対応の試作 (Android、iOS)<br>・既存の医薬品情報提供アプリの改修支援 (Android、iOS)<br>・AWSインフラチームとしてAWSサービス利用のための各拠点への技術支援、AWSアカウント移行作業支援、EC2インスタンス内の障害発生原因の調査やADサーバーやSyslogサーバー構築、オペレーションチームへのフォローアップ<br>・社内AWS利用ガイドライン策定 |
 | 2021/07<br>（3ヶ月） | ・外国人転職支援アプリのリリース前の機能改修とリファクタ(iOS) <br> ・施主用CRMツールのFlutterアプリにおけるアーキテクチャ設計、利用ライブラリ選定、コードレビュー (Android、iOS) ※並行案件 |
 | 2017/05<br>（2年0ヶ月） | ・社内でのスマートフォンアプリ開発における、企画・デザイン・システムの支援を行う組織に所属し、マイナポータルアプリ(Android)や決済アプリ(iOS、Android)など、アプリ開発全般の技術支援を実施<br>企業向けのApple Developer Enterprise Program以外にも、Volume Purchase Programなど特殊なリリース手法について調査や支援し、公式情報に出ていない内容などについてもAppleやGoogleへの問い合わせ窓口しても対応<br><br>技術支援の他に以下のプロジェクトに参画<br>・マイナンバーカード情報をAndroid端末で読み取り、国税電子申告・納税システムで各種申請を行うための支援アプリ開発に携わり、要件定義からリリースまで、Androidアプリと関連するサーバやWebシステム周りを開発 (Android)<br>・PoCとして保険システムのAndroidアプリをKotlinで試作 (Android)<br>・自然言語処理による、自動車オーナーズデスクや教育システム内の会話データなど大量データの解析・分析PoC (Python) |
 | 2016/09<br>（0年7ヶ月） | システム開発の上流工程のみを専門とした組織に所属し、サイト開発案件に対して、お客様と要件定義を行い、要件から機能整理、業務フローの整理、ワイヤーフレーム、画面動作定義書、データモデル定義をチームとして作成し、ベトナムでオフショア開発を依頼<br>モバイルアプリリリースにおいては、これまでの開発経験を元に解決の為の支援、テスト自動化手法を確立するためにSeleniumなどを使った自動化の環境も構築支援し、プロジェクトに貢献<br><br>以下の開発プロジェクトに参画<br>・家政婦マッチングサイト開発<br>・マッサージ店舗運営サイトリニューアル開発<br>・学生就職支援サイト開発、アプリ開発支援 (Android、iOS)<br>・企業向けWifi端末販売サイト開発、テスト自動化、保守支援 (PHP) |
