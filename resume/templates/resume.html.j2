@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ profile.name }} - 経歴書</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>{{ profile.name }}</h1>
+  <p class="subtitle">{{ profile.title }}</p>
+  <div class="meta">
+    <span>年齢: {{ age(profile.birthdate, meta.generated_on_timezone) }}歳</span>
+    <span>最終学歴: {{ profile.education }}</span>
+    {% if profile.location %}<span>所在地: {{ profile.location }}</span>{% endif %}
+  </div>
+  {% if profile.summary %}
+  <p class="summary">{{ profile.summary }}</p>
+  {% endif %}
+  <div class="contacts">
+    {% if contacts.email %}<span>{{ contacts.email }}</span>{% endif %}
+    {% if contacts.github %}<span>{{ contacts.github }}</span>{% endif %}
+    {% if contacts.website %}<span>{{ contacts.website }}</span>{% endif %}
+  </div>
+</header>
+
+<section>
+  <h2>技能</h2>
+  <div class="skills">
+    <div>
+      <h3>言語・領域</h3>
+      <ul>{% for s in skills.languages %}<li>{{ s }}</li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h3>ツール/サービス</h3>
+      <ul>{% for s in skills.tools %}<li>{{ s }}</li>{% endfor %}</ul>
+    </div>
+    {% if skills.keywords %}
+    <div>
+      <h3>キーワード</h3>
+      <p class="chips">
+        {% for k in skills.keywords %}<span class="chip">{{ k }}</span>{% endfor %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section>
+  <h2>職歴</h2>
+  {% for exp in experience %}
+  <div class="item">
+    <div class="item-head">
+      <div class="period">{{ exp.start }} — {{ exp.end }}</div>
+      <div class="title">{{ exp.title }}</div>
+    </div>
+    {% if exp.tech %}
+      <p class="chips">{% for t in exp.tech %}<span class="chip">{{ t }}</span>{% endfor %}</p>
+    {% endif %}
+    {% if exp.bullets %}
+      <ul class="bullets">{% for b in exp.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+
+{% if projects and projects|length > 0 %}
+<section>
+  <h2>プロジェクト・実績</h2>
+  {% for p in projects %}
+    <div class="item">
+      <div class="item-head">
+        <div class="title">{{ p.title }}</div>
+        {% if p.link %}<div class="link">{{ p.link }}</div>{% endif %}
+      </div>
+      {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+      {% if p.tech %}<p class="chips">{% for t in p.tech %}<span class="chip">{{ t }}</span>{% endfor %}</p>{% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<footer>
+  <p>最終更新: {{ today(meta.generated_on_timezone) }}</p>
+</footer>
+</body>
+</html>

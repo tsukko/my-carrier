@@ -1,0 +1,30 @@
+@page { size: A4; margin: 18mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: "Noto Sans CJK JP","Noto Sans JP","IPAexGothic",
+               -apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+}
+
+header { border-bottom: 2px solid #444; margin-bottom: 12pt; padding-bottom: 8pt; }
+h1 { font-size: 22pt; margin: 0; }
+.subtitle { margin: 4pt 0 8pt; color: #555; }
+.meta span { margin-right: 10pt; color: #555; }
+.summary { margin-top: 6pt; }
+.contacts span { margin-right: 10pt; color: #555; }
+
+section { margin-top: 14pt; }
+h2 { font-size: 14.5pt; border-left: 4px solid #333; padding-left: 6pt; margin: 0 0 8pt; }
+h3 { font-size: 12.5pt; margin: 0 0 4pt; }
+
+.skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8pt; }
+.skills ul { margin: 0; padding-left: 16pt; }
+
+.item { margin-bottom: 10pt; }
+.item-head { display: grid; grid-template-columns: 28% 72%; column-gap: 8pt; }
+.item-head .period { color: #666; white-space: nowrap; }
+.item-head .title { font-weight: 600; }
+
+.bullets { margin: 6pt 0 0 16pt; }
+.chips .chip { display: inline-block; border: 1px solid #bbb; border-radius: 10pt; padding: 1pt 6pt; margin: 0 4pt 4pt 0; font-size: 10.5pt; color: #444; }
+
+footer { margin-top: 16pt; border-top: 1px solid #ddd; padding-top: 6pt; color: #777; font-size: 10.5pt; }

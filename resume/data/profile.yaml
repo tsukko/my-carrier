@@ -1,0 +1,58 @@
+meta:
+  generated_on_timezone: "Asia/Tokyo"   # 年齢計算や日付表記に使用
+profile:
+  name: "N.T."
+  birthdate: "1981-06-17"               # ←年齢は自動算出
+  education: "東京理科大学大学院 理学研究科物理学専攻 2006年3月卒"
+  location: "埼玉県"
+  title: "ソフトウェアエンジニア / モバイル・クラウド"
+  summary: >
+    モバイル（Android/iOS）からクラウド（AWS/Terraform）、組込みまでフルスタックに経験。
+    PMO/要件〜実装〜運用の支援まで幅広く対応可能。
+
+skills:
+  languages:
+    - "Kotlin / Java (Android)"
+    - "Swift / Objective-C (iOS)"
+    - "Dart (Flutter)"
+    - "Python"
+    - "HCL (Terraform)"
+    - "C / C++ / Bash"
+  tools:
+    - "Android Studio / Xcode / JetBrains"
+    - "GitHub / GitLab / Bitbucket / CircleCI"
+    - "AWS: EC2, VPC, S3, RDS, Lambda, Step Functions, …"
+    - "Realm / PostgreSQL / DynamoDB / SQLite"
+    - "Figma / Selenium / BrowserStack"
+  keywords:
+    - "クラウドネイティブ"
+    - "IaC / Terraform"
+    - "モバイルアプリ開発"
+    - "NFC/マイナンバー/デバイス連携"
+    - "データ処理 / NLP"
+
+experience:
+  - start: "2023/10"
+    end: "現在"
+    title: "インフラPMO支援（OMOシステム基盤 / AWSリセラー移管）"
+    bullets:
+      - "総合/運用テストにおける通信要件・運用フロー・シナリオ作成とベンダ連携"
+      - "AWSアカウントのリセラー移管に関する移管設計、周知、スケジュール調整、完了牽引"
+    tech: ["AWS", "運用設計", "PMO"]
+
+  - start: "2022/08"
+    end: "2023/10"
+    title: "AWS共通基盤開発（Terraform）"
+    bullets:
+      - "IAM設計、S3レプリケーション、EFSマルチAZ、Lambda設定監視、R53 Resolver、RDS/ECS/EC2設定"
+      - "Provider v4対応、モジュール設計"
+    tech: ["Terraform", "AWS", "CI/CD"]
+
+  # …以降、同じ要領で追加
+
+projects: []  # 任意：代表的なアプリやOSS、執筆などを載せる場合に使う
+
+contacts:
+  email: "your.name@example.com"
+  github: "https://github.com/yourname"
+  website: "https://example.com"  # 会社サイト/技術ブログなど
