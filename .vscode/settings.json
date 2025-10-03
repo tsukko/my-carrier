@@ -1,0 +1,25 @@
+{
+  // YAML: 保存時フォーマットを Prettier に
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  // Red Hat YAML 拡張の設定
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+  "yaml.schemas": {
+    // profile.yaml に対してスキーマを適用
+    "./resume/schema/profile.schema.json": [
+      "resume/data/profile.yaml"
+    ]
+  },
+
+  // お好み（統一感アップ）
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Prettier は設定ファイルがある時だけ作動
+  "prettier.requireConfig": true
+}

@@ -1,0 +1,25 @@
+extends: default
+
+rules:
+  # インデントは2スペース
+  indentation:
+    spaces: 2
+    indent-sequences: consistent
+
+  # 行長はゆるめに
+  line-length:
+    max: 120
+    allow-non-breakable-words: true
+
+  # ドキュメント先頭の '---' は不要
+  document-start: disable
+
+  # 末尾スペースは警告
+  trailing-spaces: enable
+
+  # truthyは黙認（必要なら enable）
+  truthy: disable
+
+ignore: |
+  node_modules/
+  dist/

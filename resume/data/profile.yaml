@@ -54,5 +54,5 @@ projects: []  # 任意：代表的なアプリやOSS、執筆などを載せる�
 
 contacts:
   email: "your.name@example.com"
-  github: "https://github.com/yourname"
+  github: "https://github.com/yourname" # GitHubプロフィール
   website: "https://example.com"  # 会社サイト/技術ブログなど
