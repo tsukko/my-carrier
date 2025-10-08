@@ -21,5 +21,8 @@
   "files.insertFinalNewline": true,
 
   // Prettier は設定ファイルがある時だけ作動
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+
+  // Markdown PDF 拡張の設定
+  "markdown-pdf.styles": ["custom.css"]
 }

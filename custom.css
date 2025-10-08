@@ -1,0 +1,4 @@
+/* custom.css */
+table { table-layout: fixed; width: 100%; border-collapse: collapse; }
+td:first-child, th:first-child { width: 100px; text-align: center; word-break: keep-all; }
+td, th { padding: 4px 6px; }
